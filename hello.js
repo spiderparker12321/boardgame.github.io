@@ -1,4 +1,4 @@
-var password = "disappearance.child.open";
+var password = "start";
 var responce;
 
 
