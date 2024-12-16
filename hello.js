@@ -1,7 +1,7 @@
 var password = "disappearance.child.open";
 var responce;
 
-function hello(tab)
+class Hello()
 {
 responce = window.prompt("enter password");
 }
