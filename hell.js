@@ -1,8 +1,8 @@
 var buttonClicked = false;
 
-  window.addEventListener('load',function(){
+  window.addEventListener('load',desktopMove(e){
   console.log(buttonClicked);
-  document.getElementById('BtnGotit').addEventListener('onclick',function(){
+  document.getElementById('BtnGotit').addEventListener('onclick',desktopMove(e){
     buttonClicked = true;
     console.log(buttonClicked);
   });
