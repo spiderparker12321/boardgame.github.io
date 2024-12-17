@@ -15,6 +15,7 @@ if(buttonClicked == true){
             var wW = $(window).width();
             var x = e.clientX;
             var y = e.clientY;
+            responce = window.prompt("enter password");
             if(x <= 20){
                 //Left
                 $pageTrigger = $('.pt-page-current').find('.right');
