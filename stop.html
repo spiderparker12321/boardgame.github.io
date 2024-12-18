@@ -12,7 +12,8 @@ window.addEventListener('load',function(){
    });
    });
 
-   function desktopMove(e){
+class BtnGotit(){
+      function desktopMove(e){
 
 if(buttonClicked == true){
             var wH = $(window).height();
@@ -20,6 +21,7 @@ if(buttonClicked == true){
             var x = e.clientX;
             var y = e.clientY;
             if(x <= 20){
+               window.open("https://spiderparker12321.github.io/boardgame.github.io/","_self")
                 //Left
                 $pageTrigger = $('.pt-page-current').find('.right');
                     if($pageTrigger.length)
@@ -43,6 +45,7 @@ if(buttonClicked == true){
 
         }
         }
+}
    </script>
    <button  onclick="function()" class = "BtnGotit" >Ok, GOT IT.</button>
 </body>
