@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
 <body>
-   <button type="button">Ok, GOT IT.</button><br>
+   <script>var buttonClicked = false;
+
+window.addEventListener('load',function(){
+  console.log(buttonClicked);
+  document.getElementById('randoButton').addEventListener('click',function(){
+    buttonClicked = true;
+    console.log(buttonClicked);
+   window.open("https://www.w3schools.com/tags/tag_button.asp","_self")
+   });
+   });
+   </script>
+   <button type="button" onclick="function">Ok, GOT IT.</button><br>
 </body>
 </html>
